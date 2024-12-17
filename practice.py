@@ -64,6 +64,54 @@ import math
 print(math.sin(30))
 
 
-import math
 
 print(math.factorial)
+
+is_holiday =False
+is_college=False
+
+if is_holiday:
+    print("Go travel")
+elif is_college:
+    print("Go college")   
+else:
+    print("Sleep")     
+    
+    payment=int(input('enter the payment you want to offer '))
+credit= int(input("enter the credit you want to offer "))
+
+if payment>10000 and credit>1200:
+    print(' Deal confirmed')
+else:
+    print(f'Increase the payment or the credit')
+    
+    
+name=input('what is your name')
+if len(name)<3:
+    print('The name must be at least 3 characters long')
+    
+elif len(name)>10:
+    print('The name must be maximum of 10 characters long')    
+    
+else:
+    print('The name is perfect')    
+    
+    a=5
+while a<=50:
+    print(a)
+    a=a+5
+
+
+
+i=1
+n=int(input('Enter a number to calculate its multiplication table '))
+print(f'The multiplication table of {n} is as follows')
+while i<=10:
+    a=n*i
+    print(f'{n} * {i} = {a}')
+    i=i+1
+
+a=1
+while a<=5:   
+     print('*' * a)
+     a=a+1    
