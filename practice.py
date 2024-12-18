@@ -114,4 +114,44 @@ while i<=10:
 a=1
 while a<=5:   
      print('*' * a)
-     a=a+1    
+     a=a+1
+     
+     
+secret_num=5
+i=0 
+
+while i<3:
+    
+    a=int(input('Give a number'))
+    i=i+1
+    if a==secret_num:
+        print('the secret number is 5')
+        break
+    else:
+        print(f'{a} is not the secret number')  
+         
+print('you have used your all attempts')         
+
+
+command =''
+while True:
+    command=input('> ').lower()
+    if command =='start':
+        print('The car is started.... Ready to Go!!')
+    elif command =='stop':
+        print('The car is stopped')
+    elif command =='help':
+      print(''' 
+Write the commands:
+start - to start the car
+stop - to stop the car
+quit - to exit the game 
+''')   
+    elif command =='quit':
+        break          
+                
+    else:
+        print("""
+Cannot understand this .
+TYPE help/HELP for details....      
+""")             
