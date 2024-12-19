@@ -154,4 +154,22 @@ quit - to exit the game
         print("""
 Cannot understand this .
 TYPE help/HELP for details....      
-""")             
+""")    
+        
+for a in range(4,10,3):
+    print(a)
+    
+marks =[52,44,56,68,40,60]
+full_marks=[75,75,75,75,75,50]
+total_marks_obtained =0
+actual_total_marks=0
+
+for result,full in zip(marks,full_marks):
+   total_marks_obtained += result
+   actual_total_marks += full
+print(f'The total marks obtained as a result is {total_marks_obtained}. ')
+print(f'Total marks is {actual_total_marks}.')
+
+for a in [5-1,10//4]:
+    print(a)    
+                     
