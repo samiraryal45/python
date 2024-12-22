@@ -172,4 +172,22 @@ print(f'Total marks is {actual_total_marks}.')
 
 for a in [5-1,10//4]:
     print(a)    
+    
+    
+    
+for x in range(4):
+    for y in range(3):
+        print(f'{x},{y} ')
+
+
+
+    
+a=[5,2,5,2,2]
+
+for i in a:
+    print('x'*i)
+
+
+
+
                      
