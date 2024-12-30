@@ -188,6 +188,36 @@ for i in a:
     print('x'*i)
 
 
+a=[1,1,1,1,8]
+for a_count in a:
+    output =''
+    for count in range(a_count):
+        output +='x'
+    print(f'{output }')    
+    
+    
 
+i=int(input("provide the no. of the elements in the array"))
+a=[]
+for _ in range(i):
+    number=input('provide a number')
+    a.append(number)
+large=a[0]
+small=a[0]
+for i in a:
+    if large<a[i]:
+       large=a[i]
+    if small>a[i]:
+        small=a[i]
+print(f'The largest number in the array is {large}')    
+print(f"The smallest number in the array is {small}") 
+       
+    
 
-                     
+                                                    
+numbers=[1,2,3,4]
+letters=[]
+for number in numbers:
+    if number not in letters:
+        letters.append(number)
+print(letters)                    
