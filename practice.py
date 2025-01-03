@@ -221,3 +221,49 @@ for number in numbers:
     if number not in letters:
         letters.append(number)
 print(letters)                    
+
+
+n=(1,2,3,5,3)
+print(n.count(3))
+
+n=(1,2,3,5,3)
+print(n.count(3))
+
+samir={
+    "class": "11",
+    "height":"5 feet and 2 inches"
+    
+}
+
+
+print(samir["height"])
+
+
+phone = input("Phone:")
+digits={
+    
+    "1":"One",
+    "2":"Two",
+    "3":"Three",
+    "4":"Four"
+}
+output =""
+for hello in phone:
+    output += digits.get(hello,"!") + " "
+print(output)    
+
+
+def hello():
+    print('Hello world man what are you even doing man yes man ')
+
+
+print('ok man bye bye')
+
+hello()   
+
+
+def square(a):
+    return a*a
+
+
+print(square(3))
